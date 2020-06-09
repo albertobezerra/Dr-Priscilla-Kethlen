@@ -1,0 +1,14 @@
+.navbar-dark-custom {
+    background-color: #67071f;
+    padding: 12px !important;
+}
+
+.nav-link-custom{
+	color: red !important;
+	background-color: white;
+}
+
+.sobre{
+	background-color: purple;
+	padding: 20px;
+}
