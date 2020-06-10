@@ -10,5 +10,18 @@
 
 .sobre{
 	background-color: purple;
-	padding: 20px;
+}
+
+.h1 {
+	padding-left: 50px;
+	padding-top: 50px;
+}
+
+.textodaprincipal{
+	padding: 50px;
+	text-align: justify;
+}
+
+.backdaprincipal{
+	background-color: brown;
 }

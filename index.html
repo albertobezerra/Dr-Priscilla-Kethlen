@@ -12,6 +12,17 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+
+    <script>
+		var $doc = $('html, body');
+		$('.scrollSuave').click(function() {
+		    $doc.animate({
+		        scrollTop: $( $.attr(this, 'href') ).offset().top
+		    }, 500);
+		    return false;
+		});
+	</script>
 
 	<title>Drª Priscilla Kethlen - Dentista</title>
 </head>
@@ -28,10 +39,10 @@
 			  <div class="collapse navbar-collapse" id="navbarNav">
 			    <ul class="navbar-nav ml-auto">
 			      <li class="nav-item active">
-			        <a class="nav-link nav-link-custom" href="#">Home <span class="sr-only">(current)</span></a>
+			        <a class="nav-link nav-link-custom scrollSuave" href="#">Home <span class="sr-only">(current)</span></a>
 			      </li>
 			      <li class="nav-item">
-			        <a class="nav-link" href="#">Features</a>
+			        <a class="nav-link scrollSuave" href="#sobre">Sobre</a>
 			      </li>
 			      <li class="nav-item">
 			        <a class="nav-link" href="#">Pricing</a>
@@ -78,11 +89,17 @@
 
 
 	<!-- Sobre -->
-	<div class="sobre">
+	<div class="sobre" id="sobre">
 		<div class="container">
 			<div class="row">
-			    <div class="col-md-8">col-sm</div>
-			    <div class="col-6 col-md-4">col-sm</div>
+			    <div class="col-sm"><br><br><br>
+			    	<h1 class="h1">Drª. <br>Priscilla Kethlen</h1>
+					<p class="textodaprincipal">Há quase 10 anos formei em odontologia. 
+						raduação em Ortodontia e em Marketing e agora estou com meu novo consultório na cidade de Caruaru - PE. As características e o conhecimento adquiridos durante os anos de minha jornada, me formaram uma profissional que busca entender a necessidade do meu paciente, oferecendo alternativas de melhorias não somente para o seu sorriso mas, acima de tudo, para seu bem-estar. Atendimento humanizado, especializado e de forma individualizada é uma prioridade!</p>
+			    </div>
+			    <div class="col-sm backdaprincipal">
+			    	<img src="assets/imagens/fotoprincipal.png" alt="">
+			    </div>
 			</div>
 		</div>
 	</div>
@@ -92,4 +109,5 @@
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>	
 </body>
+
 </html>
