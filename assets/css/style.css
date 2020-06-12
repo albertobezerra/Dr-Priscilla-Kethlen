@@ -4,8 +4,13 @@
 }
 
 .nav-link-custom{
-	color: red !important;
-	background-color: white;
+	color: white !important;
+	text-transform: uppercase;
+}
+
+.nav-link-custom:hover{
+	border: solid #fff 1px;
+
 }
 
 .sobre{
@@ -24,4 +29,15 @@
 
 .backdaprincipal{
 	background-color: brown;
+}
+
+.anime {
+	opacity: 0;
+	transform: translate3d(-100px,0,0);
+	transition: .3s;
+}
+
+.anime-start {
+	opacity: 1;
+	transform: translate3d(0,0,0);
 }
