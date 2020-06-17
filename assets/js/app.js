@@ -12,7 +12,7 @@ $('nav a').click(function(e){
 			targetOffset = $(id).offset().top;
 	$('html, body').animate({
 		scrollTop: targetOffset - menuHeight
-	}, 500);
+	}, 100);
 });
 
 // Debounce do Lodash
