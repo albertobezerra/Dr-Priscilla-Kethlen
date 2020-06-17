@@ -1,6 +1,7 @@
 .navbar-dark-custom {
     background-color: #67071f;
     padding: 12px !important;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 .nav-link-custom{
@@ -54,23 +55,13 @@
 	text-transform: uppercase;
 }
 
-.dente{
-	width: 30px;
-	height: 30px;
+.servicos{
+	margin-top: 0 !important;
 }
 
-.dentedadireita{
-	margin-left: 60px;
+.mapa{
 }
 
-.tabeladosservicos{
-	margin-left: 30px;
-}
-
-.dentedafrente{
-
-}
-
-.dentedaf{
+.agenda{
 
 }
