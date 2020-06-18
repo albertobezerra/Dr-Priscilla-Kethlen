@@ -1,6 +1,6 @@
 .navbar-dark-custom {
     background-color: #67071f;
-    padding: 12px !important;
+    padding: 15px !important;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
@@ -14,10 +14,14 @@
 
 }
 
-.sobre{
-	background-color: purple;
-}
+.cad1{
+	background-image: url("back/backdentes.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 
+}
+	
 .h1 {
 	padding-left: 50px;
 	padding-top: 50px;
@@ -26,10 +30,6 @@
 .textodaprincipal{
 	padding: 50px;
 	text-align: justify;
-}
-
-.backdaprincipal{
-	background-color: brown;
 }
 
 .anime {
@@ -56,12 +56,13 @@
 }
 
 .servicos{
-	margin-top: 0 !important;
+	
+	
 }
 
 .mapa{
 }
 
 .agenda{
-
+	
 }
