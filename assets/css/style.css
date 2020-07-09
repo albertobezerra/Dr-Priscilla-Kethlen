@@ -235,7 +235,7 @@
 }
 
 .h1a {
-    margin-left: 50px;
+   
     margin-top: 30px;
     font-family: 'Pacifico', cursive;
     text-shadow: white 0em 0em 0.1em;
@@ -244,8 +244,21 @@
 
 .h1b {
     font-family: 'Pacifico', cursive;
-    text-shadow: white 0em 0em 0.1em;
     color: #670067;
     font-size: 23px;
-    padding: 6px;
+    padding: 20px;
+
+}
+
+@media (max-width:  575.98px) {
+
+    .cad1{
+    background-image: url("back/backdentes.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+ 
 }
