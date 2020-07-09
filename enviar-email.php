@@ -31,9 +31,8 @@ $mail = new PHPMailer\PHPMailer\PHPMailer();
     
     //Recipients
     $mail->setFrom('contato@marcoslimaefilho.adv.br');  //DEVE SER O MESMO EMAIL DO USERNAME
-    $mail->addAddress('contato@marcoslimaefilho.adv.br');     // QUAL EMAIL RECEBERÁ A MENSAGEM!
-    $mail->addAddress('marcoslima@marcoslimaefilho.adv.br');
-    $mail->addAddress('marcosfilho@marcoslimaefilho.adv.br');
+    $mail->addAddress('priscillakethlen@gmail.com');     // QUAL EMAIL RECEBERÁ A MENSAGEM!
+ 
     // $mail->addAddress('ellen@example.com');    // VOCÊ pode incluir quantos receptores quiser
     $mail->addReplyTo($email, $nome);  //AQUI SERA O EMAIL PARA O QUAL SERA RESPONDIDO                  
     // $mail->addCC('cc@example.com'); //ADICIONANDO CC
@@ -51,9 +50,9 @@ $mail = new PHPMailer\PHPMailer\PHPMailer();
  
     // $mail->send();
     if(!$mail->Send()) {
-        echo "<script>alert('Erro ao enviar o E-Mail');window.location.assign('index.php');</script>";
+        echo "<script>alert('Erro ao enviar o E-Mail');window.location.assign('index.html');</script>";
      }else{
-        echo "<script>alert('E-Mail enviado com sucesso!');window.location.assign('index.php');</script>";
+        echo "<script>alert('E-Mail enviado com sucesso!');window.location.assign('index.html');</script>";
      }
      die
 ?>
